@@ -1,11 +1,13 @@
 /* CSS RESET */
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    background-color: rgb(27, 121, 121);
+
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Signika Negative', sans-serif;
@@ -16,7 +18,7 @@ body {
     height: 70px;
     line-height: 60px;
     padding-left: 15px;
-
+    background-color: #ffffff;
     border: 1px solid black;
 }
 
@@ -29,4 +31,22 @@ body {
     display: inline-block;
     line-height: 1.5;
     vertical-align: middle;
+}
+
+/* MAIN */
+.container {
+    padding: 0 45px;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+#new-task {
+    margin-top: 40px;
+    margin-bottom: 2px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#task-recap {
+    border-radius: 2px;
 }
