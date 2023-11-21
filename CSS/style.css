@@ -90,6 +90,10 @@ body {
     font-size: 1rem;
 }
 
+.task-item {
+    margin-top: 8px;
+}
+
 .task-check {
     display: inline-block;
     height: 15px;
@@ -107,4 +111,41 @@ body {
 .check-red {
     border: 1px solid red;
     color: red;
+}
+ 
+/* task categories */
+.task-category {
+    display: inline-block;
+    padding: 4px 7px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    color: #ffffff;
+}
+
+.editorial {
+    background-color: #44aaea;
+}
+
+.editorial::after {
+    content: "Editorial";
+}
+
+.q1-goals {
+    background-color: #9c72e4;
+}
+
+.reruiting {
+    background-color: #62bfa8;
+}
+
+.mobile {
+    background-color: #f19d31;
+}
+
+.website {
+    background-color: #d862a0;
+}
+
+.sales {
+    background-color: #aec724;
 }
