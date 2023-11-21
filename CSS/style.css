@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(27, 121, 121);
+    background-color: #f6f8f9;
 
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -15,11 +15,11 @@ body {
 
 /* HEADER */
 .header {
-    height: 70px;
-    line-height: 60px;
+    height: 80px;
+    line-height: 70px;
     padding-left: 15px;
     background-color: #ffffff;
-    border: 1px solid black;
+    font-size: 1.7rem;
 }
 
 .logo {
@@ -47,15 +47,15 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 8px;
 }
 
 .new-task-item {
     border: 1px solid #e8ebec;
     border-radius: 5px;
     padding: 4px 8px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .new-task-button {
@@ -77,7 +77,7 @@ body {
 
 .task-recap-title {
     margin-top: 25px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .harrow-down {
@@ -87,7 +87,7 @@ body {
 /* liste */
 .task-recap-list {
     list-style: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .task-item {
@@ -96,10 +96,10 @@ body {
 
 .task-check {
     display: inline-block;
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ body {
     display: inline-block;
     padding: 4px 7px;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #ffffff;
 }
 
