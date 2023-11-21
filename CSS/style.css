@@ -55,7 +55,7 @@ body {
     border: 1px solid #e8ebec;
     border-radius: 5px;
     padding: 4px 8px;
-    font-size: 10px;
+    font-size: 0.7rem;
 }
 
 .new-task-button {
@@ -67,7 +67,44 @@ body {
     color: #4a4c4d;
 }
 
+/* task recap */
 #task-recap {
     border-radius: 2px;
+
+    padding-top: 1px;
+    padding-bottom: 30px;
 }
 
+.task-recap-title {
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+
+.harrow-down {
+    font-size: 0.8rem;
+}
+
+/* liste */
+.task-recap-list {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.task-check {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.check-green {
+    border: 1px solid green;
+    color: green;
+}
+
+.check-red {
+    border: 1px solid red;
+    color: red;
+}
