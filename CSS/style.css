@@ -1,0 +1,32 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* HEADER */
+.header {
+    height: 70px;
+    line-height: 60px;
+    padding-left: 15px;
+
+    border: 1px solid black;
+}
+
+.logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header-title {
+    display: inline-block;
+    line-height: 1.5;
+    vertical-align: middle;
+}
